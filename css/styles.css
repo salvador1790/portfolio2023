@@ -1,0 +1,174 @@
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Navbar Begin -------------------------------- */
+
+#logo{
+    display: inline-block;
+}
+
+#nav-links{
+    float: right;
+    word-spacing: 2em;
+    position: relative;
+    top: 45px;
+    margin-right: 60px;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#nav-links a:hover{
+    color: purple;
+    transition: 0.7s;
+    text-shadow: 5px 10px 8px #888888
+}
+
+/* Navbar Ends -------------------------------- */
+
+/* Intro Home Page Begins-------------------------------- */
+
+#intro{
+    margin-top: 110px;
+   height: 300px; 
+   word-spacing: 1px;
+}
+
+#intro h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+#intro h4{
+    margin-top: 0px;
+    margin-left: 65px;
+    font-weight: 300px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#button-cont{
+    margin-left: 65px;
+}
+
+.home-btn{
+    border-radius: 10px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid;
+}
+
+#read-more-btn{
+    border-color: purple;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#read-more-btn:hover{
+    background-color: purple;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#resume-btn{
+    border-color: orange;
+    width: 200px;
+}
+
+#resume-btn:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* Intro Home Page Ends -------------------------------- */
+
+
+/* Footer Begins -------------------------------- */
+footer{
+    background: #eeeeee;
+    position: fixed; 
+    left: 0; bottom: 0; right: 0; 
+    height: 130px;
+}
+
+#footer-para{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: #30363C;
+}
+
+#footer-links{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#footer-links p{
+    display: inline;
+    font-size: 14px;
+}
+
+#footer-email{
+    font-family: 'Rubik', sans-serif;
+    color:#30363C;
+    text-align: center;
+}
+
+#copyright{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.blue-arrow{
+    color: #46ACC9;
+}
+
+.green-arrow{
+    color: #D18E2D;
+}
+
+/* Footer Ends -------------------------------- */
+
+
+/* /////////////// ABOUT US PAGE CSS ///////////////// */
+
+
+/* /////////////// ME PICTURE SECTION BEGINNING ///////////////// */
+
+#me{
+    font-size: 30px;
+    text-align: center;
+    height: 800px;
+}
+
+#me img{
+height: 500px;
+border-radius: 10px;
+margin-top: 80px;
+}
+
+.me-description{
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    bottom: 28px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+/* /////////////// ME PICTIRE SECTION END ///////////////// */
+
